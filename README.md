@@ -408,7 +408,8 @@ ul.copyright {
 ```
 12. Add styling for icon bar social links.
 ```
-.icon-bar {
+;
+}.icon-bar {
   position: fixed;
   top: 1%;
   right: 4%;
@@ -448,13 +449,12 @@ icon-bar ul {
   background-color: var(--github-bg);
   color: var(--icon-color);
 }
-```
+``` 
 13. Style the credits.
 ```
 .credits ul {
   list-style-type: none;
-  padding: 0;
-}
+  padding: 0
 
 .credits a {
   font-size: .7em;
